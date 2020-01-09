@@ -16,6 +16,11 @@ class Solution {
         ROMAN_MAP.put('M', 1000);
     }
 
+    /**
+     * 罗马数字有一个规律，可以逆序判断
+     * @param s
+     * @return
+     */
     public int romanToInt(String s) {
 
         int result = 0;
